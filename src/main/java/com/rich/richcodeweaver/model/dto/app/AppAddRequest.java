@@ -11,7 +11,7 @@ import java.io.Serializable;
 public class AppAddRequest implements Serializable {
 
     /**
-     * 应用初始化的 prompt
+     * 应用初始化的用户 prompt
      */
     private String initPrompt;
 
