@@ -1,4 +1,4 @@
-package com.rich.richcodeweaver.constant;
+package com.rich.richcodeweaver.guardrail;
 
 import java.util.Set;
 import java.util.regex.Pattern;
@@ -274,9 +274,9 @@ public class SensitiveWordsConstant {
             Pattern.compile("(?i)new\\s+(?:instructions?|commands?|prompts?|role)\\s*[:\\-]"),
 
             // 角色扮演注入
-            Pattern.compile("(?i)(?:你现在是|you\\s+are\\s+now)\\s+(?:一个|an?|the)"),
-            Pattern.compile("(?i)(?:扮演|充当|假装|roleplay|act\\s+as)\\s+(?:一个|an?|the)?\\s*\\w+"),
-            Pattern.compile("(?i)(?:模拟|simulate|emulate)\\s+(?:一个|an?|the)?\\s*\\w+"),
+//            Pattern.compile("(?i)(?:你现在是|you\\s+are\\s+now)\\s+(?:一个|an?|the)"),
+//            Pattern.compile("(?i)(?:扮演|充当|假装|roleplay|act\\s+as)\\s+(?:一个|an?|the)?\\s*\\w+"),
+//            Pattern.compile("(?i)(?:模拟|simulate|emulate)\\s+(?:一个|an?|the)?\\s*\\w+"),
 
             // 系统提示覆盖
             Pattern.compile("(?i)(?:覆盖|替换|重新定义|override|replace|redefine)\\s+(?:系统|指令|规则|system|instructions?|rules?)"),
