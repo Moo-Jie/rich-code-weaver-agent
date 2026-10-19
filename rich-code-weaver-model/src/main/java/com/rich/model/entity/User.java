@@ -73,6 +73,18 @@ public class User implements Serializable {
     private String userRole;
 
     /**
+     * 用户身份：individual(个体)/merchant(商户)/enterprise(企业)
+     */
+    @Column("userIdentity")
+    private String userIdentity;
+
+    /**
+     * 用户行业领域
+     */
+    @Column("userIndustry")
+    private String userIndustry;
+
+    /**
      * 编辑时间
      */
     @Column("editTime")

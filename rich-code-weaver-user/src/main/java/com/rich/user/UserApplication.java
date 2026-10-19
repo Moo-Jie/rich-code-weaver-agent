@@ -9,7 +9,6 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.FilterType;
 
 @SpringBootApplication
-// 扫描 com.rich 包下的所有组件
 @MapperScan("com.rich.user.mapper")
 @ComponentScan(value = "com.rich", excludeFilters = {
         @ComponentScan.Filter(type = FilterType.ASSIGNABLE_TYPE, classes = {FileApplication.class})
