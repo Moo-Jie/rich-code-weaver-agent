@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: rich-code-weaver-prompt
+  # session 配置
+  session:
+    # session 30 天过期
+    timeout: 2592000
+  profiles:
+    active: local
+  # 允许 Bean 定义覆盖
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: 8105
+  servlet:
+    context-path: /api
+    # cookie 30 天过期
+    session:
+      cookie:
+        max-age: 2592000
+
+# 提示词文件配置
+prompt:
+  # aiPrompt 目录的绝对路径（项目根目录下的 aiPrompt 文件夹）
+  # 开发环境：使用 ${user.dir} 获取当前工作目录
+  # 生产环境：通过启动参数 -Dprompt.base-path=/path/to/aiPrompt 指定
+  base-path: ${user.dir}/aiPrompt
+
+# springdoc-openapi
+springdoc:
+  group-configs:
+    - group: 'default'
+#      paths-to-match: '/**'
+      packages-to-scan: com.rich.prompt.controller
+# knife4j
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
+# actuator 端点配置
+management:
+  endpoints:
+    web:
+      exposure:
+        # 暴露所有端点
+        include: '*'
+  endpoint:
+    health:
+      # 显示详细健康信息
+      show-details: always

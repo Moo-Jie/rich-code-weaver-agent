@@ -25,7 +25,7 @@ springdoc:
   group-configs:
     - group: 'default'
 #      paths-to-match: '/**'
-      packages-to-scan: com.rich.app.controller
+      packages-to-scan: com.rich.tmp.controller
 # knife4j
 knife4j:
   enable: true
