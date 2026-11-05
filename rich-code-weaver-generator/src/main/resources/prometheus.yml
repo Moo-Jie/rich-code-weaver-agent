@@ -22,7 +22,7 @@ scrape_configs:
       - targets: ['localhost:9090']
 
   # Spring Boot 应用监控 - Generator 服务
-  - job_name: 'rich-code-weaver-generator'
+  - job_name: 'rich-code-weaver'
     metrics_path: '/api/actuator/prometheus'  # Spring Boot Actuator 端点
     static_configs:
       - targets: ['localhost:8101']  # 应用服务器地址
