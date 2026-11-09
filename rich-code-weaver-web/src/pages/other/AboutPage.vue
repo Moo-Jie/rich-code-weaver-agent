@@ -98,8 +98,8 @@
         <div class="opensource-info">
           <div class="info-item">
             <span class="info-label">项目地址</span>
-            <a class="info-link" href="https://github.com/Moo-Jie/RichCodeWeaver" target="_blank">
-              https://github.com/Moo-Jie/RichCodeWeaver
+            <a class="info-link" href="https://github.com/Moo-Jie/rich-code-weaver-agent" target="_blank">
+              https://github.com/Moo-Jie/rich-code-weaver-agent
             </a>
           </div>
           <div class="info-item">
@@ -130,8 +130,8 @@
           <div class="author-info">
             <h3 class="author-name">MO-JIE-RUBY TEAM</h3>
             <div class="author-links">
-              <a class="author-link" href="https://github.com/Moo-Jie" target="_blank">
-                GitHub: @Moo-Jie
+              <a class="author-link" href="https://github.com/Moo-Jie/rich-code-weaver-agent" target="_blank">
+                GitHub: rich-code-weaver-agent
               </a>
               <a class="author-link" href="mailto:NotProvidedTemporarily@xxx.com">
                 Email: NotProvidedTemporarily@xxx.com

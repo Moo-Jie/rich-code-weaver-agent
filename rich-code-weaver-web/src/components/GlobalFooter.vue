@@ -4,7 +4,7 @@
       <!-- 社交链接 -->
       <div class="social-links">
         <a class="social-link"
-           href="https://github.com/Moo-Jie"
+           href="https://github.com/Moo-Jie/rich-code-weaver-agent"
            target="_blank">
           <GithubOutlined />
         </a>
@@ -29,7 +29,7 @@
         <p class="copyright">
           © {{ currentYear }} RichCodeWeaver - 织码睿奇 | 工作大幅提效，成果触手可及 |
           <a class="author-link"
-             href="https://github.com/Moo-Jie"
+             href="https://github.com/Moo-Jie/rich-code-weaver-agent"
              rel="noopener noreferrer"
              target="_blank">
             莫桀

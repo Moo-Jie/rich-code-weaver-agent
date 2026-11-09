@@ -303,8 +303,8 @@ rich-code-weaver-web/
 1. **克隆项目**
 
 ```bash
-git clone https://github.com/Moo-Jie/RichCodeWeaver.git
-cd RichCodeWeaver
+git clone https://github.com/Moo-Jie/rich-code-weaver-agent
+cd rich-code-weaver-agent
 ```
 
 2. **初始化数据库**
@@ -703,7 +703,7 @@ npm run openapi2ts
 
 **MO-JIE-RUBY TEAM**
 
-- GitHub: [@Moo-Jie](https://github.com/Moo-Jie)
+- GitHub: [rich-code-weaver-agent](https://github.com/Moo-Jie/rich-code-weaver-agent)
 - Email: NotProvidedTemporarily@xxx.com
 
 ---
@@ -725,7 +725,7 @@ npm run openapi2ts
 
 如有任何问题或建议，欢迎通过以下方式联系：
 
-- 提交 [Issue](https://github.com/Moo-Jie/RichCodeWeaver/issues)
+- 提交 [Issue](https://github.com/Moo-Jie/rich-code-weaver-agent)
 - 发送邮件至：NotProvidedTemporarily@xxx.com
 
 ---
